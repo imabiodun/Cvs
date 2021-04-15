@@ -102,14 +102,15 @@ progress {
     height: 0.5em;
     padding: 1px;
     margin-bottom: 0.5em;
+    box-shadow: 1px 0px 6px 1px #d0e3f3;
 }
 
 IMG {
-    width: 2%;
-    height: 2%;
+    width: 2em;
+    height: 2em;
     background: inherit;
     position: relative;
-    bottom: -0.3em;
+    bottom: -0.7em;
     padding-right: 1em;
 }
 table {
@@ -122,9 +123,10 @@ table {
     padding: 0 1em;
 }
 #Hobbies ul {
-    display: flex;
+    display: table-cell;
+    column-count: 2;
     list-style: none;
-    justify-content: space-between;
+    column-rule-style: groove;
     padding: 0 1em;
 }
 footer{
