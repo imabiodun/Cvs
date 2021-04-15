@@ -1,0 +1,128 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+*:link{
+    text-decoration: none;
+}
+body {
+    color: inherit;
+    background: radial-gradient(circle, #47474c 20%, #1b7777 20%, #0000006b);
+}
+.first-side {
+    margin: 20px 2px;
+}
+.underHead {
+    margin: 20px 2px;
+}
+.container {
+    width: 80%;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(114,120,64) 50%,rgb(121 121 75)50%);
+    margin: 10px auto;
+    /* padding: 10px 20px; */
+    border: 1px solid gray;
+
+}
+.all-head {
+    display: block;
+    padding: 5px;
+    background: #4c4b45;
+    color: rgb(216, 216, 216);
+}
+h4 {
+    text-align: left;
+    padding: 5px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+#myname {
+    text-transform: uppercase;
+    font-family: cursive;
+}
+#myself{
+    font-size: small;
+    font-family: ui-rounded;
+    padding: 0.5em 0.5em;
+}
+/* .address {
+    font-size: 0.8em;
+} */
+caption{
+    font-weight: bold;
+    text-align: left;
+    padding: inherit;
+}
+.contacts-container, .certs-container, .Hobby, .qualification{
+    padding: 1em 1em;
+    font-size: small;
+}
+.skills,  .first-side, .contacts-container {
+    display: block;
+    padding: 1em 1em;
+    background: aliceblue;
+    margin: 2rem 0rem;
+    box-shadow: 0.5px 4px 2px 1px grey;
+    
+}
+
+.skill {
+    display: table-row;
+    padding: 1em;
+
+}
+.social {
+    display: block;
+    padding: 0.2em 0;
+}
+.social a {
+    display: inline;
+    font-size: 1em;
+    /* position: relative;
+    bottom: 5px;*/
+}
+#tel a {
+    display: inline;
+    font-size: 1em;
+    /* position: relative;
+    bottom: 5px; */
+}
+progress {
+    display: table;
+    background-color: lightslategrey;
+    border-radius: 8px;
+    border: 0px solid;
+    width: 13em;
+    height: 0.5em;
+    padding: 1px;
+    margin-bottom: 1em;
+}
+
+IMG {
+    width: 2%;
+    height: 2%;
+    background: inherit;
+    position: relative;
+    bottom: -0.3em;
+    padding-right: 1em;
+}
+table {
+    padding-left: 1em;
+    width: 100%;
+}
+#certs ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0 1em;
+}
+#Hobbies ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+footer{
+    background-color: black;
+    padding: 1%;
+}
