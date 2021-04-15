@@ -11,10 +11,10 @@ body {
     background: radial-gradient(circle, #47474c 20%, #1b7777 20%, #0000006b);
 }
 .first-side {
-    margin: 20px 2px;
+    margin: 10px 2px;
 }
 .underHead {
-    margin: 20px 2px;
+    margin: 10px 2px;
 }
 .container {
     width: 80%;
@@ -27,7 +27,7 @@ body {
 }
 .all-head {
     display: block;
-    padding: 5px;
+    padding: 0.5em 1em;
     background: #4c4b45;
     color: rgb(216, 216, 216);
 }
@@ -55,26 +55,26 @@ caption{
     padding: inherit;
 }
 .contacts-container, .certs-container, .Hobby, .qualification{
-    padding: 1em 1em;
+    padding: 0.5em 1em;
     font-size: small;
 }
 .skills,  .first-side, .contacts-container {
     display: block;
-    padding: 1em 1em;
+    padding: 0.5em 1em;
     background: aliceblue;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     box-shadow: 0.5px 4px 2px 1px grey;
     
 }
 
 .skill {
     display: table-row;
-    padding: 1em;
+    padding: 0.5em;
 
 }
 .social {
     display: block;
-    padding: 0.2em 0;
+    padding: 0.1em 0;
 }
 .social a {
     display: inline;
@@ -96,7 +96,7 @@ progress {
     width: 13em;
     height: 0.5em;
     padding: 1px;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 IMG {
