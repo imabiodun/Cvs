@@ -30,6 +30,7 @@ body {
     padding: 0.5em 1em;
     background: #4c4b45;
     color: rgb(216, 216, 216);
+    text-align: center;
 }
 h4 {
     text-align: left;
@@ -53,6 +54,7 @@ caption{
     font-weight: bold;
     text-align: left;
     padding: inherit;
+    text-transform: uppercase;
 }
 .contacts-container, .certs-container, .Hobby, .qualification{
     padding: 0.5em 1em;
@@ -70,7 +72,7 @@ caption{
 .skill {
     display: table-row;
     padding: 0.5em;
-
+    font-size: small
 }
 .social {
     display: block;
@@ -87,6 +89,9 @@ caption{
     font-size: 1em;
     /* position: relative;
     bottom: 5px; */
+}
+td,li{
+    padding-bottom: 0.5em;
 }
 progress {
     display: table;
